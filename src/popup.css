@@ -1,0 +1,27 @@
+body {
+  min-width: 100px;
+  width: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  margin: 4px 0;
+}
+
+.save-section {
+  color: #28a745;
+  margin-bottom: 4px;
+
+  transition: opacity ease-out 1500ms;
+}
+
+.error-message {
+  color: #b30000;
+  margin-bottom: 4px;
+
+  transition: opacity ease-out 3000ms;
+}
+
+.syncing {
+  transition: opacity ease-out 3000ms;
+}
